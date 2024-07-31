@@ -1,0 +1,13 @@
+.one
+{
+    background-color: black;
+    color: white;
+}
+.four
+{
+    background-color: yellow;
+}
+.one, .four
+{
+    font-size: 36px;
+}
