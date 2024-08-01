@@ -23,6 +23,7 @@ body {
   font-weight: bold;
 } 
 
+
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -39,4 +40,19 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* Solution:  */
+.small-para
+{
+  font-size: 16px;
+}
+#confirm-button
+{
+  background-color: green;
+  color: white;
+}
+.text .child
+{
+  font-weight: 800;
 }
