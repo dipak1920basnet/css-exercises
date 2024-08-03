@@ -52,4 +52,38 @@ body {
 ul li, a{
   list-style: none;
   text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+ul
+{
+  margin-right: 26px;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+li
+{
+  margin-bottom: 20px;
+}
+
+.sidebar
+{
+  display: flex;
+  flex-direction: column;
+  /* flex:1; */
+  padding-right: 36px;
+  
+}
+.rightbar
+{
+  display: flex;
+  /* flex-direction: column; */
+  /* flex: 1; */
+  flex-wrap: wrap;
+  margin: 18px;
+  gap: 36px;
+}
+.card{
+  padding: 16px;
+  width: 300px;
 }
