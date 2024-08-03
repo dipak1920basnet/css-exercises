@@ -73,14 +73,10 @@ button.cancel {
 {
   display: flex;
   padding: 18px;
-  /* gap: 11px; */
 }
 .one
 {
-  /* padding: 18px; */
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* gap: 11px; */
+  margin: 0px 0px 0px 18px; 
 
 }
 
@@ -88,18 +84,15 @@ button.cancel {
 {
   font-weight: bolder;
   font-size: 22px;
-}
-
-.two
-{
-  margin-left: 83px;
+  margin-bottom: 8px;
 }
 
 .text
 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.icon
+.icon,
+.close-button
 {
   flex-shrink: 0;
 }
