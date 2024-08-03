@@ -37,3 +37,19 @@ body {
   font-weight:900;
   padding-left: 16px;
 }
+.body_content
+{
+  display: flex;
+}
+
+.footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+ul li, a{
+  list-style: none;
+  text-decoration: none;
+}
