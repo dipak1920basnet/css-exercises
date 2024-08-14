@@ -46,3 +46,27 @@ html {
   color: white;
   text-align: left;
 }
+
+
+/* My answer */
+.container
+{
+  display: grid;
+  grid-template: 100fr 100fr 500fr 100fr/100fr 300fr;
+  grid-gap:15px;
+  grid-template-areas: "header header"
+                        "sidebar nav"
+                        "sidebar article"
+                        "footer footer";
+          
+
+}
+
+.header
+{
+  grid-area: header;
+}
+.sidebar{grid-area: sidebar;}
+.nav{grid-area: nav;}
+.article{grid-area: article;}
+.footer{grid-area: footer;}
