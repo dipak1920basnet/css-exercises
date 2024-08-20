@@ -28,8 +28,10 @@ a {
 {
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 ul
 {
@@ -42,4 +44,8 @@ li
 {
   margin-left: 8px;
   margin-right: 8px;
+}
+.left-links
+{
+  margin-left: 0px;
 }
